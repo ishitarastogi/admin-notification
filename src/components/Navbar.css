@@ -1,17 +1,19 @@
 * {
   box-sizing: border-box;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 img {
-margin-top: 0px;}
+  margin-top: 0px;
+}
 
 .logo {
   cursor: pointer;
 }
 
-li, a, button {
+li,
+a {
   font-size: 15px;
   color: #6d1e62;
 }
@@ -22,8 +24,8 @@ header {
   align-items: center;
   padding: 30px 10%;
   color: white;
-/* background: linear-gradient(106.5deg, rgba(216, 169, 133, 0.91) 23%, rgba(200, 111, 233, 0.8) 93%); */
-/* background: #DB7DDA;
+  /* background: linear-gradient(106.5deg, rgba(216, 169, 133, 0.91) 23%, rgba(200, 111, 233, 0.8) 93%); */
+  /* background: #DB7DDA;
 background: -webkit-linear-gradient(top left, #DB7DDA, #A60BD6);
 background: -moz-linear-gradient(top left, #DB7DDA, #A60BD6);
 background: linear-gradient(to bottom right, #DB7DDA, #A60BD6); */
@@ -41,14 +43,5 @@ background: linear-gradient(to bottom right, #DB7DDA, #A60BD6); */
   transition: all 0.3s ease 0s;
 }
 .nav__links li a:hover {
-  color: #0088a9
-}
-
-.btn{
-  background-color: rgba(0,136,169,1);
-  border: none;
-  width: 120px;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
+  color: #0088a9;
 }

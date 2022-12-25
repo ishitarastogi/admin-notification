@@ -5,15 +5,14 @@ import "./Navbar.css";
 import { useSigner, useAccount } from "wagmi";
 
 function Navbar() {
-
-
   return (
     <div>
       <header>
         <h3>
-          <span style={{ color: "yellow" }}> Track </span> Events
-          <b style={{ fontSize: "30px", padding: "30px 10px", top: "60px" }}>
-            🦹‍♀️
+          <span style={{ color: "yellow", fontSize: "30px" }}> Track </span>{" "}
+          Events
+          <b style={{ fontSize: "33px", padding: "30px 15px", top: "60px" }}>
+            📩
           </b>
         </h3>
 
