@@ -79,7 +79,7 @@ function Data() {
             }}
           />
         </div>
-        <button>Subscribe</button>
+        <button className="btns"> Subscribe</button>
       </form>
       {/* <button className="btns" onClick={Subscribe}></button> */}
       {/* <div class="cover"></div> */}
